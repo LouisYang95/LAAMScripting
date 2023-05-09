@@ -1,2 +1,2 @@
 # LAAMScripting
-Project for our Scripting Administration week ( with TSDB)
+Project for our Scripting Administration week ( with TSDB )
