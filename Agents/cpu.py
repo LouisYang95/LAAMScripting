@@ -3,11 +3,10 @@ import datetime
 import time
 import logging
 
-logging.basicConfig(level=logging.DEBUG,
+logging.basicConfig(level=logging.INFO,
                     filename="log.log",
                     filemode="a",
                     format='%(asctime)s - %(levelname)s - %(message)s')
-
 
 try:    
       while True:
