@@ -34,7 +34,7 @@ try:
                         psutil.disk_io_counters(perdisk=False, nowrap=True)
                         )
                   logging.info(psutil.disk_io_counters(perdisk=False, nowrap=True))
-                  count += 1
+                  count = 1
                   time.sleep(10)
 
 
