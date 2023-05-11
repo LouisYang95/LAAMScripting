@@ -38,6 +38,11 @@ try:
                   psutil.disk_io_counters(perdisk=False, nowrap=True))
             logging.info(psutil.disk_io_counters(
                   perdisk=False, nowrap=True))
+            COUNT += 1
+            time.sleep(10)
+      elif COUNT == 4 :
+            print(datetime.datetime.now().time(), psutil.net_io_counters())
+            logging.info(psutil.net_io_counters())
             COUNT = 1
             time.sleep(10)
 
